@@ -1,14 +1,14 @@
-<h1 class="page-header">My Profile Details</h1>
+<h1 class="page-header">My Friends</h1>
 
 <div class="table-responsive">
     <table class="table table-hover table-striped">
         <tr>
             <th>Name</th>
-            <th>Value</th>
+            <th>Email</th>
         </tr>
-        <tr *ngFor="let parameter of parameters" class="active">
+        <tr *ngFor="let parameter of friends" class="active">
             <td>{{ parameter.name }}</td>
-            <td>{{ parameter.value }}</td>
+            <td>{{ parameter.email }}</td>
         </tr>
 
     </table>

@@ -6,3 +6,12 @@ html {
     background: no-repeat center center;
     background-size: cover;
 }
+
+.full-height {
+    height: 100%;
+  }
+
+  .b {
+    flex-grow: 100;
+    border: 1px solid green;
+  }

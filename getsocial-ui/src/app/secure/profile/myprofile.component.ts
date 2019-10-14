@@ -47,13 +47,12 @@ export class GetParametersCallback implements Callback {
 
         for (let i = 0; i < result.length; i++) {
             let parameter = new Parameters();
+            if(result[i].getName()==='sub'){
+                continue;
+            }
             parameter.name = result[i].getName();
             parameter.value = result[i].getValue();
             this.me.parameters.push(parameter);
         }
-        let param = new Parameters()
-        param.name = "cognito ID";
-        param.value = this.cognitoUtil.getCognitoIdentity();
-        this.me.parameters.push(param)
     }
 }
