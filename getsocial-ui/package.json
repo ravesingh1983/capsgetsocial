@@ -2,7 +2,6 @@
   "name": "getsocialui",
   "version": "1.0.0",
   "author": "Ravi Singh",
-  "homepage": "http://cognito.budilov.com",
   "description": "A single-page web app, based on angular4, utilizing Amazon Cognito, S3",
   "angular-cli": {},
   "scripts": {
